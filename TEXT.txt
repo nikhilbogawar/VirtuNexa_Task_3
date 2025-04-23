@@ -1,0 +1,17 @@
+# ATM Console Simulator
+
+## Description
+Java-based ATM simulator with deposit, withdrawal, and balance check features. Uses text file for persistent storage.
+
+## Compile & Run
+1. Compile:
+   javac -d out src/atm/*.java
+
+2. Run:
+   java -cp out atm.ATMApp
+
+3. File path:
+   data/account.txt (stores balance)
+
+## Requirements
+- Java 8+
